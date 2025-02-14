@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin: 0   ;
+    background-color: #674bb1;
+}
+.main-div{
+    background-image: url("/images/bg-mobile.svg");
+
+    height: 50vh;
+    background-size: cover;
+}
+.main-img{
+    width: 100%;
+    padding: 0;
+}
+.logo{
+    height: 40px;
+    padding-left: auto;
+
+}
+.navbar{
+    padding: 30px;
+}
+.section{
+    padding: 20px;
+    text-align: center;
+    font-family: Poppins;
+    color: white;
+    font-weight:200;
+}
+.mainbutton{
+    border: none;
+    border-radius: 30px;
+    color: #674bb1;
+    padding: 15px;
+    font-size: 15px;
+    width: 60%;
+
+}
+.main-img{
+    padding: 10px;
+}
+.socials{
+    text-align: center;
+    color: white;
+}
+
+@media only screen and (min-width:720px) {
+    .main-div{
+        background-image: url("/images/bg-desktop.svg");
+    
+        height: 100vh;
+        background-size: cover;
+    }
+    .section{
+        display: flex;
+        text-align: left;
+    }
+    .img-div{
+        width: 50%;
+    }
+    .main-img{
+        width: 95%;
+    }
+    .body{
+        width: 50%;
+    }
+    .mainbutton{
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
+        width: 30%;
+    }
+    .socials{
+        text-align: right;
+        margin: auto 50px;
+
+    }
+    .socials svg{
+        scale: 1.2;
+        margin: 10px;
+    }
+    .mainbutton:hover{
+        background-color: #e980e7;
+        color:white;
+    }
+}
