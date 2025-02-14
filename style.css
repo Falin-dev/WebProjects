@@ -4,7 +4,7 @@ body{
     background-color: #674bb1;
 }
 .main-div{
-    background-image: url("/images/bg-mobile.svg");
+    background-image: url("./images/bg-mobile.svg");
 
     height: 50vh;
     background-size: cover;
@@ -47,7 +47,7 @@ body{
 
 @media only screen and (min-width:720px) {
     .main-div{
-        background-image: url("/images/bg-desktop.svg");
+        background-image: url("./images/bg-desktop.svg");
     
         height: 100vh;
         background-size: cover;
